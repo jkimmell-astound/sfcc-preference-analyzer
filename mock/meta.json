@@ -1,0 +1,58 @@
+{
+  "GoogleVerificationTag": {
+    "group": "Storefront Configurations (Storefront Configs)",
+    "name": "GoogleVerificationTag - Content Attribute"
+  },
+  "buildNotificationEmailList": {
+    "group": "Storefront Configurations (Storefront Configs)",
+    "name": "Build Notification Email List"
+  },
+  "checkTLS": {
+    "group": "Storefront Configurations (Storefront Configs)",
+    "name": "Check TLS"
+  },
+  "countryCode": {
+    "group": "Storefront Configurations (Storefront Configs)",
+    "name": "Default Country Code"
+  },
+  "customerServiceEmail": {
+    "group": "Storefront Configurations (Storefront Configs)",
+    "name": "Customer Service Email"
+  },
+  "disableResponsiveDesign": {
+    "group": "Storefront Configurations (Storefront Configs)",
+    "name": "Disable Responsive Design"
+  },
+  "enableInfiniteScroll": {
+    "group": "Storefront Configurations (Storefront Configs)",
+    "name": "Enable Infinite Scroll"
+  },
+  "enableMultiShipping": {
+    "group": "Storefront Configurations (Storefront Configs)",
+    "name": "Enable MultiShipping"
+  },
+  "enableStorePickUp": {
+    "group": "Storefront Configurations (Storefront Configs)",
+    "name": "Enable In Store Pickup"
+  },
+  "listPriceDefault": {
+    "group": "Storefront Configurations (Storefront Configs)",
+    "name": "Default List Price Book ID"
+  },
+  "rateLimiterThreshold": {
+    "group": "Storefront Configurations (Storefront Configs)",
+    "name": "Rate Limiter Threshold"
+  },
+  "slideshoweffect": {
+    "group": "Storefront Configurations (Storefront Configs)",
+    "name": "Slide Slow effect"
+  },
+  "storeLookupMaxDistance": {
+    "group": "Storefront Configurations (Storefront Configs)",
+    "name": "Store Lookup Max Distance"
+  },
+  "storeLookupUnit": {
+    "group": "Storefront Configurations (Storefront Configs)",
+    "name": "Store Lookup Unit"
+  }
+}

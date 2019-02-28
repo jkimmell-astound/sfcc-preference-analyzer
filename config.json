@@ -1,0 +1,130 @@
+{
+    "securePreferences": [
+        "AdyenCseLibraryToken",
+        "ReCaptchaInvisibleSecretKey",
+        "ReCaptchaInvisibleSiteKey",
+        "Adyen_HMACkey",
+        "inRiverSecurityToken"
+    ],
+
+    "jsonPreferences": [
+        "taxware.https.quote.post",
+        "storeDetails",
+        "employeeDiscountProgramRedirect",
+        "friendsDiscountProgramRedirect",
+        "narvarSetting",
+        "catalogExportProperties",
+        "UPS.FINDCITYSTATE.POST",
+        "UPS.LOCATOR.POST",
+        "UPS.TIMEINTRANSIT.POST",
+        "UPS.VERIFYADDRESS.POST"
+    ],
+    "prefCellAlignment": {
+        "wrapText": true
+    },
+
+    "allRowFont": {
+        "name": "Arial",
+        "size": 10
+    },
+
+    "allRowBorder": {
+        "top": {
+            "style": "medium"
+        },
+        "left": {
+            "style": "medium"
+        },
+        "bottom": {
+            "style": "medium"
+        },
+        "right": {
+            "style": "medium"
+        }
+    },
+
+    "allRowAlignment": {
+        "vertical": "middle"
+    },
+
+    "headerColFill": {
+        "type": "pattern",
+        "pattern": "solid",
+        "fgColor": {
+            "argb": "FFDDDDDD"
+        }
+    },
+
+    "headerRowFill": {
+        "type": "pattern",
+        "pattern": "solid",
+        "fgColor": {
+            "argb": "FF111111"
+        }
+    },
+
+    "headerRowFont": {
+        "name": "Arial",
+        "size": 10,
+        "color": {
+            "argb": "FFFFFFFF"
+        },
+        "bold": true
+    },
+
+    "headerRow": [
+        {
+            "header": "Site",
+            "key": "site",
+            "width": 20
+        },
+        {
+            "header": "Standard / Custom",
+            "key": "type",
+            "width": 20
+        },
+        {
+            "header": "Group",
+            "key": "group",
+            "width": 50
+        },
+        {
+            "header": "Key",
+            "key": "key",
+            "width": 50
+        },
+        {
+            "header": "Name",
+            "key": "name",
+            "width": 50
+        },
+        {
+            "header": "All Instances",
+            "key": "all",
+            "width": 50
+        },
+        {
+            "header": "Development",
+            "key": "dev",
+            "width": 50
+        },
+        {
+            "header": "Staging",
+            "key": "stg",
+            "width": 50
+        },
+        {
+            "header": "Production",
+            "key": "prd",
+            "width": 50
+        }
+    ],
+
+    "colHeaders": [
+        "A", "B", "C", "D", "E"
+    ],
+
+    "colValues": [
+        "F", "G", "H", "I"
+    ]
+}

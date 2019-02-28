@@ -1,0 +1,615 @@
+{
+  "global": {
+    "standard": {
+      "ActiveLocales": {
+        "group": "",
+        "name": "",
+        "all-instances": "de:it_IT:fr_CA:en:it:fr:fr_FR:ja_JP:es:zh:de_DE:default:en_GB:en_CA:en_US:ja:zh_CN:nl",
+        "development": "",
+        "staging": "",
+        "production": ""
+      },
+      "CustomCartridges": {
+        "group": "",
+        "name": "",
+        "all-instances": "bm_custom_plugin",
+        "development": "",
+        "staging": "",
+        "production": ""
+      },
+      "CustomProductListColumns": {
+        "group": "",
+        "name": "",
+        "all-instances": "custom.color:custom.refinementColor",
+        "development": "",
+        "staging": "",
+        "production": ""
+      },
+      "InstanceTimezone": {
+        "group": "",
+        "name": "",
+        "all-instances": "US/Eastern",
+        "development": "",
+        "staging": "",
+        "production": ""
+      },
+      "SystemUseNotificationEnabled": {
+        "group": "",
+        "name": "",
+        "all-instances": "false",
+        "development": "",
+        "staging": "",
+        "production": ""
+      },
+      "SystemUseNotificationMandatory": {
+        "group": "",
+        "name": "",
+        "all-instances": "false",
+        "development": "",
+        "staging": "",
+        "production": ""
+      }
+    },
+    "custom": {}
+  },
+  "sites": [{
+    "id": "SiteGenesis",
+    "preferences": {
+      "standard": {
+        "AddProductToBasketBehavior": {
+          "group": "",
+          "name": "",
+          "all-instances": "IncrementQuantities",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "CategoryChangeFrequency": {
+          "group": "",
+          "name": "",
+          "all-instances": "daily",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "CategoryPriority": {
+          "group": "",
+          "name": "",
+          "all-instances": "0.5",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "ContentChangeFrequency": {
+          "group": "",
+          "name": "",
+          "all-instances": "daily",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "ContentPriority": {
+          "group": "",
+          "name": "",
+          "all-instances": "0.5",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "CouponGeneratorIncludeDashes": {
+          "group": "",
+          "name": "",
+          "all-instances": "true",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "CouponGeneratorIncludeVowels": {
+          "group": "",
+          "name": "",
+          "all-instances": "true",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "EnableSiteOrderNumbers": {
+          "group": "",
+          "name": "",
+          "all-instances": "false",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "MaxURLsPerFile": {
+          "group": "",
+          "name": "",
+          "all-instances": "5000",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "OrderEditExportDelay": {
+          "group": "",
+          "name": "",
+          "all-instances": "30",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "OrderExportDelay": {
+          "group": "",
+          "name": "",
+          "all-instances": "30",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "OrderIPLoggingEnabled": {
+          "group": "",
+          "name": "",
+          "all-instances": "true",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "OrderLifetime": {
+          "group": "",
+          "name": "",
+          "all-instances": "0",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "PaymentAccountNumberLifetime": {
+          "group": "",
+          "name": "",
+          "all-instances": "0",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "ProductChangeFrequency": {
+          "group": "",
+          "name": "",
+          "all-instances": "daily",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "ProductPriority": {
+          "group": "",
+          "name": "",
+          "all-instances": "0.5",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SiteCatalog": {
+          "group": "",
+          "name": "",
+          "all-instances": "storefront-catalog-en",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SiteCurrencies": {
+          "group": "",
+          "name": "",
+          "all-instances": "USD:EUR:JPY:CNY",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SiteCustomerList": {
+          "group": "",
+          "name": "",
+          "all-instances": "SiteGenesis",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SiteDefaultLocale": {
+          "group": "",
+          "name": "",
+          "all-instances": "en_US",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SiteLibrary": {
+          "group": "",
+          "name": "",
+          "all-instances": "SiteGenesisSharedLibrary",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SiteInventoryList": {
+          "group": "",
+          "name": "",
+          "all-instances": "inventory",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SiteLocales": {
+          "group": "",
+          "name": "",
+          "all-instances": "default:en_US",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SitePriceBooks": {
+          "group": "",
+          "name": "",
+          "all-instances": "cny-list-prices:cny-sale-prices:eur-list-prices:eur-sale-prices:jpy-list-prices:jpy-sale-prices:usd-list-prices:usd-sale-prices",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "StorefrontURLsEnabled": {
+          "group": "",
+          "name": "",
+          "all-instances": "true",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "AvailabilityFiltering": {
+          "group": "",
+          "name": "",
+          "all-instances": "",
+          "development": "Disabled",
+          "staging": "Disabled",
+          "production": "Disabled"
+        },
+        "AvailabilityLowRankingThreshold": {
+          "group": "",
+          "name": "",
+          "all-instances": "",
+          "development": "0.0",
+          "staging": "0.0",
+          "production": "0.0"
+        },
+        "PageCacheEnabled": {
+          "group": "",
+          "name": "",
+          "all-instances": "",
+          "development": "true",
+          "staging": "false",
+          "production": "true"
+        },
+        "RobotsTxtContent": {
+          "group": "",
+          "name": "",
+          "all-instances": "",
+          "development": null,
+          "staging": null,
+          "production": null
+        },
+        "RobotsTxtMode": {
+          "group": "",
+          "name": "",
+          "all-instances": "",
+          "development": "Cartridge",
+          "staging": "Cartridge",
+          "production": "Cartridge"
+        },
+        "SearchSuggestions": {
+          "group": "",
+          "name": "",
+          "all-instances": "",
+          "development": "Disabled",
+          "staging": "Enabled",
+          "production": "Disabled"
+        },
+        "StaticCacheTTL": {
+          "group": "",
+          "name": "",
+          "all-instances": "",
+          "development": "2592000",
+          "staging": "0",
+          "production": "2592000"
+        }
+      },
+      "custom": {}
+    }
+  }, {
+    "id": "SiteGenesisGlobal",
+    "preferences": {
+      "standard": {
+        "AddProductToBasketBehavior": {
+          "group": "",
+          "name": "",
+          "all-instances": "IncrementQuantities",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "CategoryChangeFrequency": {
+          "group": "",
+          "name": "",
+          "all-instances": "daily",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "CategoryPriority": {
+          "group": "",
+          "name": "",
+          "all-instances": "0.5",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "ContentChangeFrequency": {
+          "group": "",
+          "name": "",
+          "all-instances": "daily",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "ContentPriority": {
+          "group": "",
+          "name": "",
+          "all-instances": "0.5",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "CouponGeneratorIncludeDashes": {
+          "group": "",
+          "name": "",
+          "all-instances": "true",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "CouponGeneratorIncludeVowels": {
+          "group": "",
+          "name": "",
+          "all-instances": "true",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "EnableSiteOrderNumbers": {
+          "group": "",
+          "name": "",
+          "all-instances": "false",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "MaxURLsPerFile": {
+          "group": "",
+          "name": "",
+          "all-instances": "5000",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "OrderEditExportDelay": {
+          "group": "",
+          "name": "",
+          "all-instances": "30",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "OrderExportDelay": {
+          "group": "",
+          "name": "",
+          "all-instances": "30",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "OrderIPLoggingEnabled": {
+          "group": "",
+          "name": "",
+          "all-instances": "true",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "OrderLifetime": {
+          "group": "",
+          "name": "",
+          "all-instances": "0",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "PaymentAccountNumberLifetime": {
+          "group": "",
+          "name": "",
+          "all-instances": "0",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "ProductChangeFrequency": {
+          "group": "",
+          "name": "",
+          "all-instances": "daily",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "ProductPriority": {
+          "group": "",
+          "name": "",
+          "all-instances": "0.5",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SiteCatalog": {
+          "group": "",
+          "name": "",
+          "all-instances": "storefront-catalog-non-en",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SiteCurrencies": {
+          "group": "",
+          "name": "",
+          "all-instances": "EUR:JPY:CNY:GBP",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SiteCustomerList": {
+          "group": "",
+          "name": "",
+          "all-instances": "SiteGenesis",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SiteDefaultLocale": {
+          "group": "",
+          "name": "",
+          "all-instances": "en_GB",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SiteInventoryList": {
+          "group": "",
+          "name": "",
+          "all-instances": "inventory",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SiteLibrary": {
+          "group": "",
+          "name": "",
+          "all-instances": "SiteGenesisSharedLibrary",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SiteLocales": {
+          "group": "",
+          "name": "",
+          "all-instances": "en_GB:fr_FR:ja_JP:zh_CN:default:it_IT",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SitePriceBooks": {
+          "group": "",
+          "name": "",
+          "all-instances": "cny-list-prices:cny-sale-prices:eur-list-prices:eur-sale-prices:gbp-list-prices:gbp-sale-prices:jpy-list-prices:jpy-sale-prices:usd-list-prices:usd-sale-prices",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "SiteTimezone": {
+          "group": "",
+          "name": "",
+          "all-instances": "Etc/UTC",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "StorefrontURLsEnabled": {
+          "group": "",
+          "name": "",
+          "all-instances": "true",
+          "development": "",
+          "staging": "",
+          "production": ""
+        },
+        "AvailabilityFiltering": {
+          "group": "",
+          "name": "",
+          "all-instances": "",
+          "development": "Disabled",
+          "staging": "Disabled",
+          "production": "Disabled"
+        },
+        "AvailabilityLowRankingThreshold": {
+          "group": "",
+          "name": "",
+          "all-instances": "",
+          "development": "0.0",
+          "staging": "0.0",
+          "production": "0.0"
+        },
+        "RobotsTxtContent": {
+          "group": "",
+          "name": "",
+          "all-instances": "",
+          "development": null,
+          "staging": null,
+          "production": null
+        },
+        "RobotsTxtMode": {
+          "group": "",
+          "name": "",
+          "all-instances": "",
+          "development": "Cartridge",
+          "staging": "Cartridge",
+          "production": "Cartridge"
+        },
+        "SearchSuggestions": {
+          "group": "",
+          "name": "",
+          "all-instances": "",
+          "development": "Disabled",
+          "staging": "Enabled",
+          "production": "Disabled"
+        }
+      },
+      "custom": {
+        "disableResponsiveDesign": {
+          "group": "Storefront Configurations (Storefront Configs)",
+          "name": "Disable Responsive Design",
+          "all-instances": "",
+          "development": "false",
+          "staging": "false",
+          "production": ""
+        },
+        "enableInfiniteScroll": {
+          "group": "Storefront Configurations (Storefront Configs)",
+          "name": "Enable Infinite Scroll",
+          "all-instances": "",
+          "development": "false",
+          "staging": "",
+          "production": ""
+        },
+        "enableMultiShipping": {
+          "group": "Storefront Configurations (Storefront Configs)",
+          "name": "Enable MultiShipping",
+          "all-instances": "",
+          "development": "false",
+          "staging": "",
+          "production": ""
+        },
+        "enableStorePickUp": {
+          "group": "Storefront Configurations (Storefront Configs)",
+          "name": "Enable In Store Pickup",
+          "all-instances": "",
+          "development": "false",
+          "staging": "",
+          "production": ""
+        },
+        "slideshoweffect": {
+          "group": "Storefront Configurations (Storefront Configs)",
+          "name": "Slide Slow effect",
+          "all-instances": "",
+          "development": "",
+          "staging": "growX",
+          "production": ""
+        }
+      }
+    }
+  }]
+}
